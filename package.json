@@ -1,0 +1,29 @@
+{
+  "name": "victory-demo",
+  "version": "0.1.0",
+  "dependencies": {
+    "expo": "14.0.2",
+    "lodash.random": "^3.2.0",
+    "lodash.range": "^3.2.0",
+    "react": "~15.4.0",
+    "react-native": "0.41.2",
+    "victory-native": "^0.6.0"
+  },
+  "devDependencies": {
+    "jest-expo": "^0.2.1",
+    "react-native-scripts": "0.0.20",
+    "react-test-renderer": "~15.4.0"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "private": true,
+  "scripts": {
+    "android": "react-native-scripts android",
+    "eject": "react-native-scripts eject",
+    "ios": "react-native-scripts ios",
+    "start": "react-native-scripts start",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  }
+}
